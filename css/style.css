@@ -127,3 +127,40 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
+
+
+ /* ++++ responsive mobile 480px ++++  */
+@media (max-width:480px){
+
+    .lesson, .container {
+        max-width: 480px;
+    }
+
+    .row {
+        display: block;
+    }
+
+    .lessons .col {
+        width: 100%;
+        margin-top: 60px;
+    }
+
+   .col {
+        margin: auto;
+   }
+
+   .steps .col {
+        width: 100%;
+   }
+
+   .steps:nth-child(2) .col {
+        margin-top: 60px;
+   }
+
+   .card p {
+    line-height: 25px;
+    width: 80%;
+    margin: 0 auto;
+   }
+}
+ /* ++++ /responsive tablet ++++  */
