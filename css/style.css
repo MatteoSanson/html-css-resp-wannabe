@@ -127,6 +127,18 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
+/* bonus meno rigido  */
+@media (max-width:1168px){
+    body, .container {
+        
+        width: 100%;
+    }
+}
+/* /bonus meno rigido */
+
+
+
+
 
  /* ++++ responsive tablet 768px ++++  */
  @media (max-width:768px){
@@ -140,6 +152,9 @@ img {
     }
  }
  /* ++++ /responsive tablet 768px ++++  */
+
+
+
 
 
 
