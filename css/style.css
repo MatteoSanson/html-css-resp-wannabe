@@ -131,9 +131,13 @@ img {
 
  /* ++++ responsive mobile 480px ++++  */
 @media (max-width:480px){
+    body {
+        max-width: 480px;
+    }
 
     .lesson, .container {
         max-width: 480px;
+        width: 100%;
     }
 
     .row {
@@ -162,5 +166,44 @@ img {
     width: 80%;
     margin: 0 auto;
    }
+
+   .steps.text-center {
+        margin-bottom: 0;
+   }
+
+   .why-us {
+    background-color: black;
+    padding-top: 48px;
+    margin-bottom: -48px;
+    padding-bottom: 48px;
+    }
+
+    .why-us .col-left {
+        width: 90%;
+    }
+
+    .why-us .col-right {
+        width: 90%;
+        line-height: 25px;
+    }
+
+    div .col.col-right {
+        padding-top: 70px;
+    }
+
+    .why-us .container h2 {
+        font-size: 40px;
+    }
+
+    div .col.col-right h3 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    div .col.col-right p {
+        font-size: 18px;
+    }
+
 }
+
  /* ++++ /responsive tablet ++++  */
