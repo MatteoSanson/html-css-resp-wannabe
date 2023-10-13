@@ -128,6 +128,20 @@ img {
     SOLUZIONE RESPONSIVE
  ************************************************/
 
+ /* ++++ responsive tablet 768px ++++  */
+ @media (max-width:768px){
+    body {
+        max-width: 768px;
+    }
+
+    .lesson, .container {
+        max-width: 768px;
+        width: 100%;
+    }
+ }
+ /* ++++ /responsive tablet 768px ++++  */
+
+
 
  /* ++++ responsive mobile 480px ++++  */
 @media (max-width:480px){
