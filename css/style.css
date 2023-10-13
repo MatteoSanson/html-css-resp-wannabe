@@ -135,6 +135,10 @@ img {
         max-width: 480px;
     }
 
+    h1 {
+        font-size: 3rem;
+    }
+
     .lesson, .container {
         max-width: 480px;
         width: 100%;
